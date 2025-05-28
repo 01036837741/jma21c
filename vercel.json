@@ -1,0 +1,31 @@
+{
+  "headers": [
+    {
+      "source": "/robots.txt",           /* robots.txt에 대한 설정 */
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain" },
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
+        { "key": "Pragma", "value": "no-cache" },
+        { "key": "Expires", "value": "0" }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",          /* sitemap.xml도 같은 방식으로 캐시 방지 */
+      "headers": [
+        { "key": "Content-Type", "value": "application/xml" },
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
+        { "key": "Pragma", "value": "no-cache" },
+        { "key": "Expires", "value": "0" }
+      ]
+    },
+    {
+      "source": "/rss.xml",              /* rss.xml도 동일하게 처리 */
+      "headers": [
+        { "key": "Content-Type", "value": "application/rss+xml" },
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
+        { "key": "Pragma", "value": "no-cache" },
+        { "key": "Expires", "value": "0" }
+      ]
+    }
+  ]
+}
