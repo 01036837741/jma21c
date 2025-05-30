@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>유공 블로그 피드</title>
+  <link>https://www.hasoogoo.io.kr</link>
+  <description>하수구·변기·싱크대·고압세척·배관내시경 전문 콘텐츠 모음</description>
+  <language>ko-KR</language>
+  <lastBuildDate>Fri, 30 May 2025 16:32:45 +0900</lastBuildDate>
+
+  <item>
+    <title>🧻 [유공의 프로파일] 흐름을 만드는 사람들</title>
+    <link>https://www.hasoogoo.io.kr/yugong-profile.html</link>
+    <description>욕조 물이 잘 빠지지 않던 어느 날. 약도 청소도 통하지 않았다. 유공은 내시경으로 내부를 확인하고, 슬러지를 정밀하게 제거했다. “묻지 않습니다. 왜 이제야 연락했는지.” 흐름을 다시 여는 사람들의 이야기.</description>
+    <pubDate>Sat, 24 May 2025 20:02:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>📘 유공일지 : 그저, 길을 다시 열어드린 겁니다.</title>
+    <link>https://www.hasoogoo.io.kr/yugong-log-path.html</link>
+    <description>보이지 않는 막힘, 쌓여 있던 무게. 유공은 도구보다 감각으로 흐름을 읽고, 정확한 타이밍으로 길을 복원한다. 고객의 한숨을 ‘길’로 바꾸는 순간의 기록.</description>
+    <pubDate>Sun, 11 May 2025 18:57:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>🏠 [유공 시리즈 – 변기 안쪽 이야기]</title>
+    <link>https://www.hasoogoo.io.kr/toilet-inside.html</link>
+    <description>뚜껑 아래를 들여다보는 일. 변기 속 구조와 흐름의 본질, 유공은 그 복잡한 배관 구조를 체계적으로 해석해간다. “겉만 보고선 모릅니다.” – 진짜 이야기의 시작.</description>
+    <pubDate>Sun, 04 May 2025 20:05:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>🛠️ [유공 시공일지] 회사 공장 화장실, 바닥이 말을 잃다.</title>
+    <link>https://www.hasoogoo.io.kr/factory-floor-2025.html</link>
+    <description>공장 화장실의 물끊김 현장. 석션으로는 해결되지 않는 깊은 막힘을 유공은 손끝으로 진단하고, 스프링과 석션으로 흐름을 복원했다. “물이 안 내려간 게 아니라, 길이 막힌 겁니다.”</description>
+    <pubDate>Sat, 26 Apr 2025 23:54:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>📌 [유공 시리즈 1] “배관공을 왜 부르게 되는가?”</title>
+    <link>https://www.hasoogoo.io.kr/why-call-yugong-2025-05-01.html</link>
+    <description>주방, 화장실, 베란다, 세탁실까지—현장에서 마주한 막힘의 유형 10가지와 진국 사장님의 통찰. “슬러지는 하루아침에 안 생깁니다.” 경험과 데이터가 만난 글.</description>
+    <pubDate>Thu, 01 May 2025 10:57:00 +0900</pubDate>
+  </item>
+</channel>
+</rss>
