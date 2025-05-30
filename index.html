@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="군산하수구막힘뚫음,군산변기막힘뚫음,군산싱크대씽크대막힘뚫음,군산하수도막힘,군산배수구막힘,군산고압세척,배관내시경">
+  <meta name="naver-site-verification" content="e1314a153abe30615def3f4f264d356b7fa1041c" />
+  <meta property="og:title" content="하수구·변기·싱크대·고압세척·배관내시경 전문업체">
+  <meta property="og:description" content="막힌 곳, 시원하게 뚫어드립니다. 군산변기뚫음·하수구막힘·싱크대막힘 뚫는 곳 찾으셨나요?  군산 지역 배관 전문가가 직접 뚫어드려요. 지금 바로 연락주세요!" />
+  <meta property="og:image" content="https://www.hasoogoo.io.kr/images/home_optimized.webp">
+  <link rel="preload" as="image" href="images/home.jpg" fetchpriority="high">
+  <style>
+      html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #fffaf0;
+    }
+    header {
+      background: #004a94;
+      color: white;
+      padding: 20px;
+      font-size: 3rem;
+      font-weight: 900;
+      white-space: nowrap;
+      text-align: center;
+    }
+    nav {
+      background: #0077cc;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      font-size: 1rem;
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    section {
+      display: none;
+      padding: 20px;
+    }
+    section.active {
+      display: block;
+    }
+    img.full {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      display: block;
+      margin: 0 auto 24px auto;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      border-radius: 8px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    input, textarea {
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      padding: 12px;
+      background: #0073e6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .phone {
+      display: block;
+      text-align: center;
+      margin: 30px auto;
+      background: #0055aa;
+      color: white;
+      font-size: 1.2rem;
+      padding: 14px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      max-width: 320px;
+    }
+    @media screen and (max-width: 480px) {
+      header {
+        font-size: 1.3rem;
+        white-space: normal;  /* ✅ 줄바꿈 허용 */
+        padding: 16px 10px;   /* ✅ 좌우 여백 추가 */
+        line-height: 1.4;     /* ✅ 줄간격 확보 */
+     }
+    }
+    
+  </style>
+  <script>
+  function showSection(id) {
+    document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+
+    // ✅ 홈일 때 전화버튼 숨기기
+    const phoneButton = document.querySelector('.phone');
+    if (phoneButton) {
+      phoneButton.style.display = (id === 'home') ? 'none' : 'block';
+    }
+  }
+
+  window.onload = () => {
+    showSection('home');
+  };
+</script>
+</head>
+<body>
+  <header>하수구·변기·싱크대 막힘 뚫음 고압세척·배관내시경 전문업체</header>
+  <nav>
+    <a onclick="showSection('home')">홈</a>
+    <a onclick="showSection('about')">회사소개</a>
+    <a onclick="showSection('services')">공사영역</a>
+    <a onclick="showSection('construction')">시공사례</a>
+    <a onclick="showSection('contact')">고객센터</a>
+  </nav>
+
+   <!--
+<section class="home-hero">
+  <picture>
+    <source srcset="images/home_optimized.webp" type="image/webp">
+    <img src="images/home.jpg" alt="메인 배너" />
+  </picture>
+</section>
+ -->
+
+<!--
+<section class="home-hero">
+  <picture>
+    <source srcset="images/home_optimized.webp" type="image/webp">
+    <img src="images/home.jpg" alt="메인 배너" />
+  </picture>
+</section>
+ -->
+
+<section id="home" class="active" style="position: relative; background: #fffaf0;">
+  <!-- ✅ 배경은 이 section 전체에 깔림 -->
+
+  <div style="position: relative; width: 100%;">
+    <picture>
+      <source srcset="images/home_optimized.webp" type="image/webp" />
+      <img src="images/home.jpg" alt="메인 배너"
+           style="width: 100%; display: block;"
+           oncontextmenu="return false"
+           draggable="false"
+           loading="eager"
+           fetchpriority="high" />
+    </picture>
+
+    <!-- 🔻 투명 클릭 배너 -->
+    <a href="tel:01036837741" 
+       title="전화 연결"
+       aria-label="010-3259-8818 전화 연결"
+       style="
+         position: absolute;
+         bottom: 55px;
+         left: 0;
+         width: 100%;
+         height: 90px;
+         z-index: 10;
+         display: block;
+         cursor: pointer;">
+      <span style="position: absolute; width: 0; height: 0; overflow: hidden;">전화 연결</span>
+    </a>
+  </div>
+</section>
+
+  <section id="about">
+    <img src="images/about.webp" alt="회사소개" class="full" />
+    <img src="images/plumber.webp" alt="배관 기사 사진" class="full" />
+  </section>
+
+  <section id="services">
+    <img src="images/services.webp" class="full" alt="배관 고압세척 및 내시경 점검 서비스 소개" oncontextmenu="return false" draggable="false" />
+    <img src="images/work1.webp" class="full" alt="싱크대 막힘 해결을 위한 배관 수리 작업자 모습" oncontextmenu="return false" draggable="false" />
+    <img src="images/work2.webp" class="full" alt="고객과 상담 중인 배관 점검 기술자와 내시경 장비" oncontextmenu="return false" draggable="false" />
+    <img src="images/work3.webp" class="full" alt="싱크대 막힘 처리 후 웃는 고객과 배관 기술자" oncontextmenu="return false" draggable="false" />
+    <img src="images/work4.webp" class="full" alt="배관 점검 차량과 호스 장비를 운반하는 기술자" oncontextmenu="return false" draggable="false" />
+    <img src="images/work5.webp" class="full" alt="배관 내부를 내시경 장비로 확인하며 설명하는 기술자" oncontextmenu="return false" draggable="false" />
+  </section>
+
+  <section id="construction">
+    <div class="gallery">
+    <img src="images/construction1.webp" alt="고압세척용 붉은 호스 장비 정리 상태" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction2.webp" alt="배관 내부 상태 확인용 내시경 장비 설치" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction3.webp" alt="화장실에서 배관 내시경 장비 사용 중" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction4.webp" alt="막힘 부위 탐지 중인 하수도 내시경 화면" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction5.webp" alt="배관 내부 이물질 상태 확인 중 화면 모습" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction6.webp" alt="맨홀 내부에 고압세척 장비 투입 모습" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction7.webp" alt="화장실 바닥에서 배관 드릴 장비 작업 준비" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction8.webp" alt="도로 위에서 배관 막힘 제거용 드릴 장비 세팅" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction9.webp" alt="화장실 배수구에 고압스프링 삽입 작업 중" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction10.webp" alt="화장실 배관 고압세척용 모터 장비 준비 상태" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction11.webp" alt="배관에 고압세척 노즐 삽입 중 작업 장면" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction12.webp" alt="콘크리트 바닥 위 드레인 정비 상태" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction13.webp" alt="하수구 역류로 화장실 바닥 오염된 상황" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction14.webp" alt="모래와 흙 이물질이 쌓인 배관 내부 모습" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction15.webp" alt="배관에서 제거한 굳은 찌꺼기 더미" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction16.webp" alt="청소 후 깔끔하게 정리된 배관 맨홀 내부" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction17.webp" alt="배관 내시경 장비와 드릴 장비 세팅 상태" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction18.webp" alt="고압세척용 장비 및 호스 정리된 차량 내부" oncontextmenu="return false" draggable="false" />
+    <img src="images/construction19.webp" alt="배관청소용 고압장비 및 연결 호스"  oncontextmenu="return false" draggable="false" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <img src="images/contactcenter.webp" class="full" alt="새로운 고객센터 이미지" oncontextmenu="return false" draggable="false" />
+    <form action="https://formspree.io/f/xnndjbwk" method="POST">
+      <input type="text" name="name" placeholder="이름" required />
+      <input type="tel" name="phone" placeholder="연락처" required />
+      <input type="email" name="email" placeholder="이메일" required />
+      <textarea name="message" placeholder="문의 내용" required></textarea>
+      <button type="submit">문의하기</button>
+    </form>
+  </section>
+
+  <link href="https://cdn.jsdelivr.net/npm/pretendard@1.3.8/dist/web/static/pretendard.css" rel="stylesheet">
+  <div style="text-align:center; font-family:'Pretendard', sans-serif; font-size:1.15rem; font-weight:600; line-height:1.9; padding: 18px 0; letter-spacing:-0.3px;">
+    막힌 곳,<br>시원하게 해결해드립니다!
+  </div>
+
+  <footer>
+    <a href="tel:01032598818" class="phone">📞 010-3259-8818 전화하기</a>
+    <div style="text-align:center; background:#f8f8f8; padding:20px 10px; font-size:0.95rem; line-height:1.8;">
+      <div style="font-weight:bold;">상호 : 하수구막힘변기막힘싱크대막힘고압세척</div>
+      <div style="font-weight:bold;">대표번호 : 010-3259-8818</div>
+      <div style="font-weight:bold;">Copyright(C)2025 하수구막힘변기막힘싱크대막힘고압세척 All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>
